@@ -10,7 +10,7 @@ class Trending extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://api.themoviedb.org/3/trending/movie/day?api_key=140aa2a61156d040b45d8a45da490f38"
+        "https://api.themoviedb.org/3/trending/movie/day?api_key=b7d3d78da112d71a39b066cbc166d0c0"
       )
       .then((response) =>
         this.setState({ trendingMovies: response.data.results })

@@ -37,7 +37,7 @@ class MoviesView extends Component {
   };
 
   search(w) {
-    const apiKey = "140aa2a61156d040b45d8a45da490f38";
+    const apiKey = "b7d3d78da112d71a39b066cbc166d0c0";
 
     let arr = axios
       .get(
